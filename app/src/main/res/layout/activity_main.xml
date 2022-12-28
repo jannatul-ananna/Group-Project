@@ -11,13 +11,9 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="50px"
-<<<<<<< HEAD
         android:textColor="pink"
-        android:padding="50dp"
-=======
         android:padding="70dp"
         android:background="@color/royal_blue"
->>>>>>> 08a5e7215a32cdce9d66e64afc668fe30102bb91
         android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
