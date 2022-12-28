@@ -17,16 +17,23 @@
         android:padding="70dp"
         android:background="@color/royal_blue"
         android:layout_margin="10dp"
+        android:layout_gravity="top|center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blah Blah"
+        android:layout_gravity="bottom"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Button01"
+        android:text="@string/button01"
+        android:layout_gravity="bottom"
         />
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>
