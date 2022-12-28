@@ -12,6 +12,7 @@
         android:text="Hello World!"
         android:textSize="50px"
         android:padding="50dp"
+        android:background="@color/royal_blue"
         android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
