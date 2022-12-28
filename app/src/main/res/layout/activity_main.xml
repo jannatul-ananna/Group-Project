@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="50px"
+        android:textColor="pink"
         android:padding="50dp"
         android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
