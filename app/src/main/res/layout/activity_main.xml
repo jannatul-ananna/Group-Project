@@ -23,17 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Blah Blah"
-        android:layout_gravity="bottom"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button01"
-        android:layout_gravity="bottom"
-        />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
