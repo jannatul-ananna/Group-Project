@@ -7,18 +7,20 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/seashell"
-        >
+        android:background="@color/seashell">
 
         <TextView
+            android:id="@+id/scrolltext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/scrolltext"
-            android:text="@string/scrollText"
-            android:textSize="22sp"
+            android:layout_marginBottom="500px"
+            android:fontFamily="sans-serif-light"
             android:justificationMode="inter_word"
-            android:fontFamily="sans-serif-condensed"
-            android:layout_marginBottom="500px"/>
+            android:lineSpacingExtra="10px"
+            android:paddingHorizontal="20px"
+            android:text="@string/scrollText"
+            android:textColor="@color/black_alloy"
+            android:textSize="24sp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -38,6 +40,7 @@
             android:layout_alignParentRight="true"
             android:text="@string/button02"
             android:textAllCaps="false"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            android:layout_marginRight="60px"/>
     </RelativeLayout>
 </ScrollView>
