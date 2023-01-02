@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200" />
+
+      <TableRow
+        android:background="@color/alice_blue" />
+
+         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/col1"
+            android:textColor="@color/black"
+            android:padding="10sp"
+            android:textSize="14sp" >
+         </TextView>
+
+         <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="@string/col2"
+           android:textColor="@color/black"
+           android:padding="10sp"
+           android:textSize="14sp" >
+          </TextView>
+
+         <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="@string/col3"
+           android:textColor="@color/black"
+           android:padding="10sp"
+           android:textSize="14sp" >
+         </TextView>
+
+         <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="@string/col4"
+           android:textColor="@color/black"
+           android:padding="10sp"
+           android:textSize="14sp" >
+         </TextView>
+
+         <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="@string/col5"
+          android:textColor="@color/black"
+          android:padding="10sp"
+          android:textSize="14sp" >
+         </TextView>
+
+         <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="@string/col6"
+          android:textColor="@color/black"
+          android:padding="10sp"
+          android:textSize="14sp" >
+        </TextView>
+
+
+    </TableLayout>
