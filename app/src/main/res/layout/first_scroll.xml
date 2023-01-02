@@ -23,6 +23,7 @@
             android:textSize="24sp" />
 
         <ImageView
+            android:id="@+id/androidIcon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_launcher_foreground"
@@ -34,13 +35,14 @@
             android:contentDescription="Android Logo" />
 
         <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="60px"
             android:text="@string/button02"
             android:textAllCaps="false"
-            tools:ignore="RelativeOverlap"
-            android:layout_marginRight="60px"/>
+            tools:ignore="RelativeOverlap" />
     </RelativeLayout>
 </ScrollView>
