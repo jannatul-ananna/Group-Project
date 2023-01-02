@@ -27,7 +27,8 @@
             android:scaleX="5"
             android:scaleY="5"
             android:layout_alignParentBottom="true"
-            android:paddingBottom="50px"
+            android:foregroundGravity="center"
+            android:paddingBottom="45px"
             android:contentDescription="Android Logo" />
 
         <Button
