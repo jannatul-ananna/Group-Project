@@ -3,17 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="ExtraText"
-    android:stretchColumns="1">
+    android:layout_margin="15px"
+    android:layout_marginLeft="15px"
+    tools:ignore="ExtraText">
 
     <TableRow
-        android:background="@color/gray">
+        android:background="@color/light_blue">
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/col1"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
@@ -24,7 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/col2"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="2"
@@ -42,6 +43,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row1Name"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="4"
@@ -52,6 +54,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row1Roll"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="2"
@@ -66,6 +69,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row2Name"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="4"
@@ -76,6 +80,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row2Roll"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="2"
@@ -90,6 +95,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row3Name"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="4"
@@ -100,6 +106,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row3Roll"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="2"
@@ -115,6 +122,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row4Name"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="4"
@@ -125,6 +133,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row4Roll"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="2"
@@ -140,6 +149,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row5Name"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="4"
@@ -150,6 +160,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/row5Roll"
+            android:textColor="@color/black_alloy"
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="2"
@@ -159,4 +170,17 @@
 
     </TableRow>
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="60px"
+        android:text="@string/table_button"
+        android:textAllCaps="false"
+        tools:ignore="RelativeOverlap"
+        android:layout_gravity="center"/>
+
 </TableLayout>
+

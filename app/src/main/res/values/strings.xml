@@ -16,4 +16,6 @@
     <string name="row4Roll">223143</string>
     <string name="row5Name">Rahul Sarker</string>
     <string name="row5Roll">223111</string>
+    <string name="button3">Next Page</string>
+    <string name="table_button">Next</string>
 </resources>
