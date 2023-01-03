@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         buttonImage = findViewById(id.button_image);
         buttonImage.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Go To New page for viewing image", Toast.LENGTH_SHORT).show();
 
                 //Calling Image_view.java
