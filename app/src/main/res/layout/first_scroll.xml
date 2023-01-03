@@ -20,7 +20,7 @@
             android:paddingHorizontal="20px"
             android:text="@string/scrollText"
             android:textColor="@color/black_alloy"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <ImageView
             android:id="@+id/androidIcon"
