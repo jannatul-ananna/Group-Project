@@ -41,7 +41,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="60px"
-            android:text="@string/button02"
+            android:text="@string/button_in_first"
             android:textAllCaps="false"
             tools:ignore="RelativeOverlap" />
     </RelativeLayout>

@@ -11,6 +11,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_scroll);
+        setContentView(R.layout.third_grid_view);
+
+        GridView gridView = (GridView) findViewById(R.id.grid_image_view);
+        gridView.setAdapter(new ImageAdapter(this));
     }
 }
