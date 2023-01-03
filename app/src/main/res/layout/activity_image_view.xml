@@ -21,43 +21,43 @@
 
     <ImageView
         android:id="@+id/imageView42"
-        android:layout_width="110dp"
-        android:layout_height="143dp"
+        android:layout_width="102dp"
+        android:layout_height="134dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="84dp"
         app:srcCompat="@drawable/rahul" />
 
     <ImageView
         android:id="@+id/imageView43"
-        android:layout_width="104dp"
-        android:layout_height="136dp"
+        android:layout_width="113dp"
+        android:layout_height="147dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="159dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="69dp"
         app:srcCompat="@drawable/alamgir" />
 
     <ImageView
         android:id="@+id/imageView44"
-        android:layout_width="99dp"
-        android:layout_height="136dp"
+        android:layout_width="121dp"
+        android:layout_height="143dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="296dp"
-        android:layout_marginTop="82dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="75dp"
         app:srcCompat="@drawable/ananna" />
 
     <ImageView
         android:id="@+id/imageView45"
-        android:layout_width="88dp"
-        android:layout_height="134dp"
+        android:layout_width="140dp"
+        android:layout_height="126dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="305dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="316dp"
         app:srcCompat="@drawable/ashik" />
 
     <ImageView
@@ -134,7 +134,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_image_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -146,7 +146,7 @@
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button_image_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
