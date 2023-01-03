@@ -22,5 +22,7 @@
         android:text="@string/button_in_grid"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="60px"/>
+        android:layout_marginRight="60px"
+        android:backgroundTint="@color/light_blue"
+        android:textColor="@color/black"/>
 </RelativeLayout>

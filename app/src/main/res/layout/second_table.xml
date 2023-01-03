@@ -2,13 +2,25 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="15px"
-    android:layout_marginLeft="15px"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="75px"
+    android:layout_marginLeft="25px"
+    android:layout_marginRight="25px"
     tools:ignore="ExtraText">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table Layout"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+
     <TableRow
-        android:background="@color/light_blue">
+        android:background="@color/light_blue"
+        android:layout_marginTop="50px">
 
         <TextView
             android:layout_width="0dp"
@@ -16,7 +28,7 @@
             android:text="@string/col1"
             android:textColor="@android:color/black"
             android:padding="10sp"
-            android:textSize="14sp"
+            android:textSize="16sp"
             android:layout_weight="4"
             android:gravity="center_horizontal"
             />
@@ -27,7 +39,7 @@
             android:text="@string/col2"
             android:textColor="@android:color/black"
             android:padding="10sp"
-            android:textSize="14sp"
+            android:textSize="16sp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
             />
@@ -153,7 +165,7 @@
             android:padding="10sp"
             android:textSize="12sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"
+            android:textAlignment="center"
             />
 
         <TextView
@@ -167,20 +179,32 @@
             android:gravity="center_horizontal"
             />
 
-
     </TableRow>
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="60px"
-        android:text="@string/table_button"
-        android:textAllCaps="false"
-        tools:ignore="RelativeOverlap"
-        android:layout_gravity="center"/>
+    <TableRow>
+        <Button
+            android:id="@+id/button_table_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/table_button_back"
+            android:textAllCaps="false"
+            android:layout_marginTop="800px"
+            android:layout_marginLeft="150px"
+            android:backgroundTint="@color/light_blue"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/button_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/table_button"
+            android:textAllCaps="false"
+            android:layout_marginTop="800px"
+            android:layout_marginLeft="260px"
+            android:backgroundTint="@color/light_blue"
+            android:textColor="@color/black"
+            />
+    </TableRow>
 
 </TableLayout>
-

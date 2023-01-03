@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Group Project</string>
 
+
     <string name="text_view">Md. Masfiqur Rahman</string>
     <string name="text_view_age">IIT Jahangirnagar University</string>
     <string name="scroll_view">
@@ -21,8 +22,8 @@
         Doing so results in poor user interface performance and a poor user experience.
 
     </string>
-
     <string name="button_listener">Listener</string>
+
 
     <string name="button_in_first">Next Page</string>
     <string name="button_in_grid">Next Page</string>
@@ -38,6 +39,6 @@
     <string name="row4Roll">223143</string>
     <string name="row5Name">Rahul Sarker</string>
     <string name="row5Roll">223111</string>
-    <string name="button3">Next Page</string>
     <string name="table_button">Next</string>
+    <string name="table_button_back">Back</string>
 </resources>
