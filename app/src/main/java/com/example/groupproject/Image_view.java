@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class Image_view extends AppCompatActivity {
 
-    Button buttonBack;
+    //Button btnBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_view);
 
         //going back to activity_main
-        buttonBack = findViewById(R.id.button_image_back);
-        buttonBack.setOnClickListener(new View.OnClickListener() {
+        /*btnBack = findViewById(R.id.button_image_back);
+        btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -25,6 +25,6 @@ public class Image_view extends AppCompatActivity {
                 Intent callMain = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(callMain);
             }
-        });
+        });*/
     }
 }

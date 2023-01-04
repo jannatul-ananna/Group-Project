@@ -12,13 +12,13 @@ import com.example.groupproject.R.id;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button buttonImage;
+    Button btnImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn = findViewById(id.button_toast);
+        Button btn = findViewById(R.id.button_toast);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonImage = findViewById(id.button_image);
-        buttonImage.setOnClickListener(new View.OnClickListener() {
+        btnImage = findViewById(R.id.button_image);
+        btnImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Go To New page for viewing image", Toast.LENGTH_SHORT).show();
 
                 //Calling Image_view.java
-                Intent callImage = new Intent(getApplicationContext(),Image_view.class);
-                startActivity(callImage);
+                Intent imageView = new Intent(getApplicationContext(),Image_view.class);
+                startActivity(imageView);
             }
         });
 
