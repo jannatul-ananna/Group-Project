@@ -32,6 +32,7 @@
         <activity android:name=".GridViewActivity"></activity>
         <activity android:name=".TableViewActivity"></activity>
         <activity android:name=".AnimActivity"></activity>
+        <activity android:name=".NotificationActivity"></activity>
 
     </application>
 
