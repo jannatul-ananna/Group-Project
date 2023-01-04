@@ -8,11 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.groupproject.R.id;
-
 public class MainActivity extends AppCompatActivity {
-
-    Button btnImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnImage = findViewById(R.id.button_image);
+        Button btnImage = findViewById(R.id.button_image);
         btnImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Go To New page for viewing image", Toast.LENGTH_SHORT).show();
 
                 //Calling Image_view.java
-                Intent imageView = new Intent(getApplicationContext(),Image_view.class);
+                Intent imageView = new Intent(getApplicationContext(), ImageView.class);
                 startActivity(imageView);
             }
         });
