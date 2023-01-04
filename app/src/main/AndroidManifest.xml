@@ -29,6 +29,7 @@
         <activity android:name=".SingleViewActivity"></activity>
         <activity android:name=".Image_view"></activity>
         <activity android:name=".GridViewActivity"></activity>
+        <activity android:name=".TableViewActivity"></activity>
 
     </application>
 

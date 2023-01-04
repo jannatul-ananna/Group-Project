@@ -69,39 +69,45 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/btnok"
+        android:id="@+id/Btn_Toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="22dp"
         android:text="@string/button_listener"
         android:visibility="visible"
         app:iconTint="#1952BF"
-        app:rippleColor="#1AD60C" />
+        app:rippleColor="#1AD60C"
+        android:backgroundTint="@color/light_blue"
+        android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn_grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="49dp"
-        android:text="Icrement" />
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="21dp"
+        android:text="Grid"
+        android:backgroundTint="@color/light_blue"
+        android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/btn_Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="46dp"
-        android:accessibilityTraversalAfter="@id/btn1"
-        android:text="Image" />
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="19dp"
+        android:accessibilityTraversalAfter="@id/btn_grid"
+        android:text="Image"
+        android:backgroundTint="@color/light_blue"
+        android:textColor="@color/black"/>
 
     <ImageView
         android:id="@+id/imageView2"
