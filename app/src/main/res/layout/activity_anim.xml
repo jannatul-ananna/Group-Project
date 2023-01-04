@@ -58,7 +58,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="35dp"
         android:layout_marginBottom="206dp"
-        android:text="@string/ani_button_clockwise"
+        android:text="@string/ani_button_Rotation"
         android:textAllCaps="false" />
 
     <Button
@@ -79,8 +79,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="202dp"
-        android:textAllCaps="false"
-        android:text="@string/ani_button_stop_animation" />
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="203dp"
+        android:text="@string/ani_button_stop_animation"
+        android:textAllCaps="false" />
 </RelativeLayout>

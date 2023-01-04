@@ -23,7 +23,7 @@ public class AnimActivity extends Activity {
         btnFade = findViewById(R.id.fade_button);
         btnMove = findViewById(R.id.move_button);
         btnZoom = findViewById(R.id.zoom_button);
-        btnBlink = findViewById(R.id.zoom_button);
+        btnBlink = findViewById(R.id.blink_button);
         btnStop = findViewById(R.id.stop_ani_button);
         //Image
         imageView = findViewById(R.id.anim_image);
@@ -37,7 +37,49 @@ public class AnimActivity extends Activity {
             }
         });
 
+        //Animation Fade
+        btnFade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Animation fadeAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
+                imageView.startAnimation(fadeAnim);
+            }
+        });
 
+        //Animation Move
+        btnMove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Animation moveAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move);
+                imageView.startAnimation(moveAnim);
+            }
+        });
+
+        //Animation Zoom
+        btnZoom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Animation zoomAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom);
+                imageView.startAnimation(zoomAnim);
+            }
+        });
+
+        //Animation Blink
+        btnBlink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Animation blinkAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.blink);
+                imageView.startAnimation(blinkAnim);
+            }
+        });
+
+        //Stop Animation
+        btnStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageView.clearAnimation();
+            }
+        });
 
     }
 }

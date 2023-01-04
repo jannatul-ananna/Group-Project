@@ -42,7 +42,7 @@
     <string name="table_button_back">Back</string>
 
     <string name="ani_button_blink">Blink</string>
-    <string name="ani_button_clockwise">Clockwise</string>
+    <string name="ani_button_Rotation">Rotation</string>
     <string name="ani_button_fade">Fade</string>
     <string name="ani_button_move">Move</string>
     <string name="ani_button_slide">Slide</string>
