@@ -41,13 +41,13 @@
     <string name="table_button">Next</string>
     <string name="table_button_back">Back</string>
 
-    <string name="ani_button_blink">blink</string>
-    <string name="ani_button_clockwise">clockwise</string>
-    <string name="ani_button_fade">fade</string>
-    <string name="ani_button_move">move</string>
-    <string name="ani_button_slide">slide</string>
-    <string name="ani_button_zoom">zoom</string>
-    <string name="ani_button_stop_animation">stop anim</string>
+    <string name="ani_button_blink">Blink</string>
+    <string name="ani_button_clockwise">Clockwise</string>
+    <string name="ani_button_fade">Fade</string>
+    <string name="ani_button_move">Move</string>
+    <string name="ani_button_slide">Slide</string>
+    <string name="ani_button_zoom">Zoom</string>
+    <string name="ani_button_stop_animation">Stop Anim</string>
 
 
 

@@ -26,9 +26,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="39dp"
         android:layout_marginBottom="315dp"
-        android:text="@string/ani_button_blink"
-
-        />
+        android:textAllCaps="false"
+        android:text="@string/ani_button_blink" />
 
     <Button
         android:id="@+id/fade_button"
@@ -39,6 +38,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginEnd="166dp"
         android:layout_marginBottom="315dp"
+        android:textAllCaps="false"
         android:text="@string/ani_button_fade" />
 
     <Button
@@ -49,6 +49,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="315dp"
+        android:textAllCaps="false"
         android:text="@string/ani_button_move" />
 
     <Button
@@ -57,9 +58,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="202dp"
-        android:text="@string/ani_button_slide" />
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="206dp"
+        android:text="@string/ani_button_slide"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/zoom_button"
@@ -68,9 +70,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="183dp"
-        android:layout_marginBottom="203dp"
-        android:text="@string/ani_button_zoom" />
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="204dp"
+        android:text="@string/ani_button_zoom"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/stop_ani_button"
@@ -80,5 +83,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="202dp"
+        android:textAllCaps="false"
         android:text="@string/ani_button_stop_animation" />
 </RelativeLayout>
