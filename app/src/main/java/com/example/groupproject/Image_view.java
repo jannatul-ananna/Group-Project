@@ -1,5 +1,6 @@
 package com.example.groupproject;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ImageView extends AppCompatActivity {
+public class Image_view extends AppCompatActivity {
 
     Button btnBack;
     @Override
@@ -15,16 +16,17 @@ public class ImageView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_view);
 
-        //going back to activity_main
-        btnBack = findViewById(R.id.button_image_back);
+        btnBack = findViewById(R.id.back_from_image);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //calling MainActivity.java
-                Intent mainAct = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(mainAct);
+                openMainAct();
             }
         });
+    }
+
+    public void openMainAct(){
+        Intent intent =new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
     }
 }

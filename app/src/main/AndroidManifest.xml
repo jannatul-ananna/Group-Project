@@ -27,6 +27,9 @@
         </activity>
 
         <activity android:name=".SingleViewActivity"></activity>
+        <activity android:name=".Image_view"></activity>
+        <activity android:name=".GridViewActivity"></activity>
+
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ImageView">
+    tools:context=".Image_view">
 
     <TextView
         android:id="@+id/textView"
@@ -17,47 +17,47 @@
         android:textColor="#5502E8"
         android:textSize="25sp"
         android:textStyle="bold"
-    />
+        />
 
     <ImageView
         android:id="@+id/imageView42"
-        android:layout_width="102dp"
-        android:layout_height="134dp"
+        android:layout_width="110dp"
+        android:layout_height="143dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="75dp"
         app:srcCompat="@drawable/rahul" />
 
     <ImageView
         android:id="@+id/imageView43"
-        android:layout_width="113dp"
-        android:layout_height="147dp"
+        android:layout_width="104dp"
+        android:layout_height="136dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="159dp"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="80dp"
         app:srcCompat="@drawable/alamgir" />
 
     <ImageView
         android:id="@+id/imageView44"
-        android:layout_width="121dp"
-        android:layout_height="143dp"
+        android:layout_width="99dp"
+        android:layout_height="136dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="290dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="82dp"
         app:srcCompat="@drawable/ananna" />
 
     <ImageView
         android:id="@+id/imageView45"
-        android:layout_width="140dp"
-        android:layout_height="126dp"
+        android:layout_width="88dp"
+        android:layout_height="134dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="316dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="305dp"
         app:srcCompat="@drawable/ashik" />
 
     <ImageView
@@ -134,27 +134,23 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button_image_back"
+        android:id="@+id/back_from_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="83dp"
         android:layout_marginBottom="115dp"
-        android:text="Back"
-        android:backgroundTint="@color/light_blue"
-        android:textColor="@color/black"/>
+        android:text="Back" />
 
     <Button
-        android:id="@+id/button_image_next"
+        android:id="@+id/next_from_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="112dp"
-        android:text="Next"
-        android:backgroundTint="@color/light_blue"
-        android:textColor="@color/black"/>
+        android:text="Next" />
 
 </RelativeLayout>
