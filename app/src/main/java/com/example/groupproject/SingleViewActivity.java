@@ -1,11 +1,10 @@
 package com.example.groupproject;
-
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class SingleViewActivity extends Activity{
+public class SingleViewActivity extends AppCompatActivity{
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);

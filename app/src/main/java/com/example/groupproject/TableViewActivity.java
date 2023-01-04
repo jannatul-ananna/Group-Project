@@ -1,6 +1,6 @@
 package com.example.groupproject;
+import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -15,7 +15,7 @@ import android.widget.Button;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-public class TableViewActivity extends Activity{
+public class TableViewActivity extends AppCompatActivity {
 
     Button btnTabNext, btnTabBack;
     @Override
@@ -39,7 +39,7 @@ public class TableViewActivity extends Activity{
             @Override
             public void onClick(View view) {
                 openImageView();
-                createNotif();
+                //createNotif();
             }
         });
 
@@ -55,7 +55,7 @@ public class TableViewActivity extends Activity{
         startActivity(openImage);
     }
 
-    private void createNotif()
+   /* private void createNotif()
     {
         String id= "my_channel_id_01";
         NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
@@ -96,5 +96,5 @@ public class TableViewActivity extends Activity{
 
 
 
-    }
+    }*/
 }

@@ -1,6 +1,5 @@
 package com.example.groupproject;
-
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -9,7 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 
-public class AnimActivity extends Activity {
+public class AnimActivity extends AppCompatActivity {
 
     ImageView imageView;
     Button btnClockWise, btnFade, btnMove, btnZoom, btnBlink, btnStop;

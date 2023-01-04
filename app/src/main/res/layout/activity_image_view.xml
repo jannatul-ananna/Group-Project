@@ -14,60 +14,60 @@
         android:layout_marginTop="17dp"
         android:text="Our Team"
         android:textAlignment="center"
-        android:textColor="#5502E8"
+        android:textColor="@color/cadet_blue"
         android:textSize="25sp"
         android:textStyle="bold"
         />
 
     <ImageView
         android:id="@+id/imageView42"
-        android:layout_width="110dp"
-        android:layout_height="143dp"
+        android:layout_width="126dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="78dp"
         app:srcCompat="@drawable/rahul" />
 
     <ImageView
         android:id="@+id/imageView43"
-        android:layout_width="104dp"
-        android:layout_height="136dp"
+        android:layout_width="135dp"
+        android:layout_height="124dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="78dp"
         app:srcCompat="@drawable/alamgir" />
 
     <ImageView
         android:id="@+id/imageView44"
-        android:layout_width="99dp"
-        android:layout_height="136dp"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="296dp"
-        android:layout_marginTop="82dp"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="69dp"
         app:srcCompat="@drawable/ananna" />
 
     <ImageView
         android:id="@+id/imageView45"
-        android:layout_width="88dp"
-        android:layout_height="134dp"
+        android:layout_width="185dp"
+        android:layout_height="121dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="305dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="327dp"
         app:srcCompat="@drawable/ashik" />
 
     <ImageView
         android:id="@+id/imageView46"
-        android:layout_width="148dp"
-        android:layout_height="146dp"
+        android:layout_width="180dp"
+        android:layout_height="203dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="224dp"
-        android:layout_marginTop="307dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="287dp"
         app:srcCompat="@drawable/masfiq" />
 
     <TextView
@@ -76,10 +76,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="234dp"
         android:text="Rahul Sarker"
-        android:textColor="#BF4747"
+        android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
 
     <TextView
@@ -89,22 +89,22 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="158dp"
-        android:layout_marginTop="209dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="237dp"
         android:text="Alamgir Hossain"
-        android:textColor="#BF4747"
+        android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="wrap_content"
+        android:layout_width="119dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="323dp"
-        android:layout_marginTop="209dp"
-        android:text="Ananna"
-        android:textColor="#BF4747"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="234dp"
+        android:text="Jannatul Ananna"
+        android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
 
     <TextView
@@ -114,10 +114,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="444dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="458dp"
         android:text="Ashik E Elahi"
-        android:textColor="#BF4747"
+        android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
 
     <TextView
@@ -127,10 +127,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="239dp"
-        android:layout_marginTop="441dp"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="457dp"
         android:text="Masfiqur Rahman"
-        android:textColor="#BF4747"
+        android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
 
     <Button
@@ -142,6 +142,7 @@
         android:layout_marginStart="83dp"
         android:layout_marginBottom="115dp"
         android:text="Back"
+        app:rippleColor="@color/aquamarine"
         android:backgroundTint="@color/light_blue"
         android:textColor="@color/black"/>
 
@@ -154,6 +155,7 @@
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="112dp"
         android:text="Next"
+        app:rippleColor="@color/aquamarine"
         android:backgroundTint="@color/light_blue"
         android:textColor="@color/black"/>
 

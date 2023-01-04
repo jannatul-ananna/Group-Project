@@ -1,6 +1,5 @@
 package com.example.groupproject;
-
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +11,7 @@ import android.view.View;
 
 
 
-public class GridViewActivity extends Activity {
+public class GridViewActivity extends AppCompatActivity {
     Button btnGridNext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
