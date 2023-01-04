@@ -9,12 +9,14 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btn, btnImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn = findViewById(R.id.button_toast);
+        btn = findViewById(R.id.button_toast);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnImage = findViewById(R.id.button_image);
+        btnImage = findViewById(R.id.button_image);
         btnImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
