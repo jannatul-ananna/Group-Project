@@ -5,18 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".AnimActivity">
 
     <ImageView
         android:id="@+id/anim_image"
-        android:layout_width="200dp"
-        android:layout_height="206dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
+        android:layout_width="253dp"
+        android:layout_height="179dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="97dp"
         android:layout_marginEnd="105dp"
-        app:srcCompat="@drawable/masfiq" />
+        android:src="@drawable/sir_mesbah" />
 
     <Button
         android:id="@+id/blink_button"
@@ -53,14 +51,14 @@
         android:text="@string/ani_button_move" />
 
     <Button
-        android:id="@+id/slide_button"
+        android:id="@+id/clockwise_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="35dp"
         android:layout_marginBottom="206dp"
-        android:text="@string/ani_button_slide"
+        android:text="@string/ani_button_clockwise"
         android:textAllCaps="false" />
 
     <Button
