@@ -40,7 +40,6 @@ public class ImageAdapter extends BaseAdapter{
             imageView.setLayoutParams(new ViewGroup.LayoutParams(275,275));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(8, 12, 8,8);
-            //imageView.setOutlineSpotShadowColor(@ColorInt);
         }
         else {
             imageView = (ImageView) convertView;
