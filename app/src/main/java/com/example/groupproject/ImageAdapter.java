@@ -9,7 +9,6 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-import androidx.annotation.ColorInt;
 
 public class ImageAdapter extends BaseAdapter{
     private final Context mContext;

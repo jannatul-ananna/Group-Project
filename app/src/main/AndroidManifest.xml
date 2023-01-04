@@ -31,6 +31,7 @@
         <activity android:name=".GridViewActivity"></activity>
         <activity android:name=".TableViewActivity"></activity>
 
+
     </application>
 
 </manifest>
