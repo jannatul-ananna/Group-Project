@@ -25,7 +25,6 @@
     <string name="button_listener">Listener</string>
 
 
-
     <string name="button_in_grid">Next Page</string>
     <string name="col1">Name</string>
     <string name="col2">Roll</string>
@@ -41,4 +40,16 @@
     <string name="row5Roll">223111</string>
     <string name="table_button">Next</string>
     <string name="table_button_back">Back</string>
+
+    <string name="ani_button_blink">blink</string>
+    <string name="ani_button_clockwise">clockwise</string>
+    <string name="ani_button_fade">fade</string>
+    <string name="ani_button_move">move</string>
+    <string name="ani_button_slide">slide</string>
+    <string name="ani_button_zoom">zoom</string>
+    <string name="ani_button_stop_animation">stop_animation</string>
+
+
+
+
 </resources>
