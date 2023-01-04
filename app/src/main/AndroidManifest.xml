@@ -13,6 +13,23 @@
         android:theme="@style/Theme.GroupProject"
         tools:targetApi="31">
         <activity
+
+
+            android:name=".NotificationActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AnimActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+>>>>>>> Stashed changes
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -25,6 +42,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+<<<<<<< Updated upstream
 
         <activity android:name=".SingleViewActivity"></activity>
         <activity android:name=".Image_view"></activity>
@@ -34,6 +52,16 @@
 
 
 
+=======
+        <activity android:name=".SingleViewActivity" />
+        <activity android:name=".Image_view" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".TableViewActivity" />
+        <activity android:name=".SingleViewActivity" />
+        <activity android:name=".Image_view" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".TableViewActivity" />
+>>>>>>> Stashed changes
     </application>
 
 </manifest>
