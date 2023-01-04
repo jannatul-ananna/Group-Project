@@ -31,7 +31,9 @@ public class TableViewActivity extends Activity{
                 openImageView();
             }
         });
+
     }
+    
 
     public void openAnimation(){
         Intent openAnim = new Intent(getApplicationContext(),AnimActivity.class);
