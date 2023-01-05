@@ -17,7 +17,7 @@
         android:stretchMode="columnWidth"
         android:gravity="center"/>
 
-    <Button
+<Button
         android:id="@+id/next_from_grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -24,8 +24,8 @@
     </string>
     <string name="edit_text">Type here :</string>
     <string name="write_edit_text">Type anything</string>
-
     <string name="button_listener">Listener</string>
+    
 
     <string name="button_in_grid">Next Page</string>
     <string name="col1">Name</string>
