@@ -25,11 +25,11 @@
     <string name="edit_text">Type here :</string>
     <string name="write_edit_text">Type anything</string>
     <string name="button_listener">Listener</string>
-    
+
 
     <string name="button_in_grid">Next Page</string>
     <string name="col1">Name</string>
-    <string name="col2">Roll</string>
+    <string name="col2">ID</string>
     <string name="row1Name">Ashik-E-Elahi</string>
     <string name="row1Roll">223124</string>
     <string name="row2Name">Jannatul Joinal Ananna</string>
