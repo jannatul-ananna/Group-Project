@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btnImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Go To New page for viewing image", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Thanks for viewing our images", Toast.LENGTH_SHORT).show();
                 openImageView();
             }
         });

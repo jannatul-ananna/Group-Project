@@ -5,25 +5,27 @@
     <string name="text_view">Jahangirnagar University</string>
     <string name="text_view_age">PMIT-IIT</string>
     <string name="scroll_view">
-        A view group that allows the view hierarchy placed within it to be scrolled.
-        Scroll view may have only one direct child placed within it.
-        To add multiple views within the scroll view, make the direct child you add a view group,
+       A view group that allows the view hierarchy placed within it to be scrolled.
+        Scroll view may have only one direct child placed within it.To add multiple
+        views within the scroll view,make the direct child you add a view group,
         for example LinearLayout, and place additional views within that LinearLayout.
-        Scroll view supports vertical scrolling only. For horizontal scrolling,
-        use HorizontalScrollView instead. Never add a RecyclerView or ListView to a scroll view.
+        Scroll view supports vertical scrolling only. For horizontal scrolling,use
+        HorizontalScrollView instead. Never add a RecyclerView or ListView to a scroll view.
         Doing so results in poor user interface performance and a poor user experience.
 
      A view group that allows the view hierarchy placed within it to be scrolled.
-        Scroll view may have only one direct child placed within it.
-        To add multiple views within the scroll view, make the direct child you add a view group,
+        Scroll view may have only one direct child placed within it.To add multiple
+        views within the scroll view,make the direct child you add a view group,
         for example LinearLayout, and place additional views within that LinearLayout.
-        Scroll view supports vertical scrolling only. For horizontal scrolling,
-        use HorizontalScrollView instead. Never add a RecyclerView or ListView to a scroll view.
+        Scroll view supports vertical scrolling only. For horizontal scrolling,use
+        HorizontalScrollView instead. Never add a RecyclerView or ListView to a scroll view.
         Doing so results in poor user interface performance and a poor user experience.
 
     </string>
-    <string name="button_listener">Listener</string>
+    <string name="edit_text">Type here :</string>
+    <string name="write_edit_text">Type anything</string>
 
+    <string name="button_listener">Listener</string>
 
     <string name="button_in_grid">Next Page</string>
     <string name="col1">Name</string>

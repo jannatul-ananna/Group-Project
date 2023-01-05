@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
+    
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -39,9 +38,29 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="331dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/juu" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/ju" />
+
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="533dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -49,24 +68,48 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="26dp"
         android:layout_marginTop="84dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="114dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="164dp"
         android:scrollbarStyle="insideOverlay">
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:text="@string/scroll_view"
             android:fontFamily="serif"
             android:lineHeight="70px"
+            android:text="@string/scroll_view"
             android:textColor="@color/black"
             android:textSize="20sp" />
-
-
     </ScrollView>
+    <TextView
+        android:id="@+id/text_view_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="118dp"
+        android:text="@string/edit_text"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_blue"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="110dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/Btn_Toast"
@@ -108,25 +151,5 @@
         android:backgroundTint="@color/light_blue"
         android:text="Image"
         android:textColor="@color/black" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="52dp"
-        android:layout_height="49dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="346dp"
-        android:layout_marginTop="18dp"
-        app:srcCompat="@drawable/juu" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="53dp"
-        android:layout_height="51dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="16dp"
-        app:srcCompat="@drawable/ju" />
 
 </RelativeLayout>

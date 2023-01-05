@@ -25,7 +25,7 @@
         android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginStart="3dp"
         android:layout_marginTop="78dp"
         app:srcCompat="@drawable/rahul" />
 
@@ -36,7 +36,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="131dp"
+        android:layout_marginStart="129dp"
         android:layout_marginTop="78dp"
         app:srcCompat="@drawable/alamgir" />
 
@@ -46,8 +46,10 @@
         android:layout_height="135dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="263dp"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="-1dp"
         app:srcCompat="@drawable/ananna" />
 
     <ImageView
@@ -76,8 +78,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="234dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="223dp"
         android:text="Rahul Sarker"
         android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
@@ -89,8 +91,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="233dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="224dp"
         android:text="Alamgir Hossain"
         android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
@@ -101,8 +103,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="234dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="224dp"
         android:text="Jannatul Ananna"
         android:textColor="@color/dark_slate_blue"
         android:textStyle="bold" />
