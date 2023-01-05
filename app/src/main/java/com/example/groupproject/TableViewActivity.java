@@ -1,22 +1,22 @@
 package com.example.groupproject;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+
 
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Intent;
-import android.graphics.BitmapFactory;
-import android.os.Build;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
+
 
 public class TableViewActivity extends AppCompatActivity {
-
+    NotificationManager notificationManager;
     Button btnTabNext, btnTabBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,7 @@ public class TableViewActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openAnimation();
+                callAnimNoti();
 
             }
         });
@@ -39,7 +40,6 @@ public class TableViewActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openImageView();
-                //createNotif();
             }
         });
 
@@ -55,46 +55,35 @@ public class TableViewActivity extends AppCompatActivity {
         startActivity(openImage);
     }
 
-   /* private void createNotif()
-    {
-        String id= "my_channel_id_01";
-        NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O)
-        {
-            NotificationChannel channel = manager.getNotificationChannel(id);
-            if (channel == null)
-            {
-                channel = new NotificationChannel(id,"Channel Title" , NotificationManager.IMPORTANCE_HIGH);
-                //notification channel
-                channel.setDescription("[Channel description]");
-                channel.enableVibration(true);
-                channel.setVibrationPattern(new long [] {100,1000,200,340});
-                channel.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
-                manager.createNotificationChannel(channel);
-            }
+    public void callAnimNoti() {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            NotificationChannel notificationChannel = new NotificationChannel("com.example.groupproject",
+                    "Group Project", NotificationManager.IMPORTANCE_DEFAULT);
+            notificationChannel.setLightColor(Color.RED);
+            notificationChannel.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
+
+            notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+            assert notificationManager != null;
+            notificationManager.createNotificationChannel(notificationChannel);
+            notificationManager.cancel(0);
+
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(TableViewActivity.this,
+                    "com.example.groupproject");
+            Notification notification = builder.setOngoing(true)
+                    .setSmallIcon(R.drawable.ic_launcher_foreground)
+                    .setContentTitle("This is Animation Tab")
+                    .setPriority(NotificationManager.IMPORTANCE_HIGH)
+                    .setCategory(Notification.CATEGORY_SERVICE)
+                    .build();
+            notificationManager.notify(0, notification);
+            new CountDownTimer(10000, 100) {
+                @Override
+                public void onTick(long l) {
+                }
+                public void onFinish() {
+                    notificationManager.cancel(0);
+                }
+            }.start();
         }
-
-        Intent notificationIntent = new Intent(this, NotificationActivity.class);
-        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, id)
-                .setSmallIcon(R.drawable.icon)
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.bg))
-                .setStyle(new NotificationCompat.BigPictureStyle()
-                        .bigPicture(BitmapFactory.decodeResource(getResources(),R.drawable.bg))
-                        .bigLargeIcon(null))
-                .setContentTitle("Title")
-                .setContentText("You are in Grid Layout")
-                .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setVibrate(new long[]{100,1000,200,340})
-                .setAutoCancel(false)
-                .setTicker("Notification");
-        builder.setContentIntent(contentIntent);
-        NotificationManagerCompat m = NotificationManagerCompat.from(getApplicationContext());
-        m.notify(1,builder.build());
-
-
-
-
-    }*/
+    }
 }
