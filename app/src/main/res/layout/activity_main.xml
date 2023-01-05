@@ -62,28 +62,23 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="158dp"
         android:scrollbarStyle="insideOverlay">
 
-        <TextView
+        <me.biubiubiu.justifytext.library.JustifyTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:fontFamily="serif"
             android:lineHeight="70px"
             android:text="@string/scroll_view"
             android:textColor="@color/black"
             android:textSize="20sp" />
     </ScrollView>
+
     <TextView
         android:id="@+id/text_view_edit"
         android:layout_width="wrap_content"
@@ -91,7 +86,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="26dp"
-        android:layout_marginBottom="118dp"
+        android:layout_marginBottom="120dp"
         android:text="@string/edit_text"
         android:textAlignment="textStart"
         android:textAllCaps="true"
@@ -107,7 +102,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="110dp"
-        android:ems="10"
         android:inputType="textPersonName"
         android:textAlignment="viewStart"
         android:textStyle="bold" />
